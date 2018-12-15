@@ -17,9 +17,10 @@
     <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Kanit" rel="stylesheet">
 
     <!-- Custom styles for this template -->
-    <link href="css/grayscale.min.css" rel="stylesheet">
+    <link href="css/grayscale.css" rel="stylesheet">
 
   </head>
 
@@ -28,7 +29,7 @@
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
       <div class="container">
-        <a class="navbar-brand js-scroll-trigger" href="#page-top">Project</a>
+        <a class="navbar-brand js-scroll-trigger" href="#page-top">Movie Industry Analysis</a>
         <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
           Menu
           <i class="fas fa-bars"></i>
@@ -36,10 +37,10 @@
         <div class="collapse navbar-collapse" id="navbarResponsive">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#about">About</a>
+              <a class="nav-link js-scroll-trigger" href="#genre">ประเภทของภาพยนตร์</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#projects">Project</a>
+              <a class="nav-link js-scroll-trigger" href="#genre">Project</a>
             </li>
             <li class="nav-item">
               <a class="nav-link js-scroll-trigger" href="#signup">Contact</a>
@@ -54,114 +55,49 @@
       <div class="container d-flex h-100 align-items-center">
         <div class="mx-auto text-center">
           <h1 class="mx-auto my-0 text-uppercase">Movie Industry</h1>
-          <h2 class="text-white-50 mx-auto mt-2 mb-5">โปรเจกต์นี้เป็นส่วนหนึ่งของวิชาการเเก้ไขปัญหาทางด้านเทคโนโลยีสารสนเทศ</h2>
-          <a href="#about" class="btn btn-primary js-scroll-trigger">Get Started</a>
+          <h2 class="text-white-50 mx-auto mt-2 mb-5">โปรเจกต์นี้เป็นส่วนหนึ่งของวิชาการเเก้ไขปัญหาทางด้านเทคโนโลยีสาระสนเทศ</h2>
+          <a href="#genre" class="btn btn-primary js-scroll-trigger">Get Started</a>
         </div>
       </div>
     </header>
 
-    <!-- About Section -->
-    <section id="about" class="about-section text-center">
-      <div class="container">
-        <div class="row">
-          <div class="mx-auto col-lg-10">
-            <h2 class="text-white mb-4">การวิเคราะห์อุตสาหกรรมภาพยนตร์</h2>
-            <p class="text-white-50">โปรเจกต์นี้เกี่ยวกับการการวิเคราะห์ข้อมูล พวกเรากลุ่ม StoryTeller ได้เลือกหัวข้อ Movie Industry (อุตสาหกรรมภาพยนตร์)
-              <br>เป้าหมายเพื่อศึกษาหัวข้อต่างๆในมุมมองของผู้ผลิตเเละผู้บริโภคดังนี้
-              <br>จำนวนของภาพยนตร์เเต่ละประเภท (Action, Comedy, Drama) ระหว่างช่วง 1986 - 2016
-              <br>รายได้ของภาพยนตร์เเต่ละประภท (Action, Comedy, Drama) ระหว่างช่วง 1986 - 2016
-              <br>การให้เรทติ่งของภาพยนตร์ (R, PG, PG-13) ระหว่างช่วง 1986 - 2016
-              <br>เทรนของภาพยนตร์ ระหว่างช่วง 1986 - 2016
-          </div>
-        </div>
-        <img src="img/2.jpg" alt="" width="1400" height="792" class="img-fluid">
-      </div>
-    </section>
-
-    <!-- Projects Section -->
-    <section id="projects" class="projects-section bg-light">
+    <!-- Content Section -->
+    <section id="ContentSection" class="contentmain">
       <div class="container">
 
-        <!-- Featured Project Row -->
-        <div class="row align-items-center no-gutters mb-4 mb-lg-5">
-          <div class="col-xl-8 col-lg-7">
-              <embed src="chart/trend_genre_line.svg" type="image/svg+xml" />
-          </div>
-          <div class="col-xl-4 col-lg-5">
-            <div class="featured-text text-center text-lg-left">
-              <h4>Movie Trend</h4>
-              <p class="text-black-50 mb-0">เป็นการวิเคราะห์แนวหนังตั้งแต่ ปี 1986-2016</p>
-            </div>
-          </div><br />
-        </div>
-
-        <!-- Project One Row -->
-        <div class="row justify-content-center no-gutters mb-5 mb-lg-0">
-          <div class="col-lg-6">
-            <embed src="chart/gross_chart.svg" type="image/svg+xml" />
-          </div>
-          <div class="col-lg-6">
-            <div class="bg-black text-center h-100 project">
-              <div class="d-flex h-100">
-                <div class="project-text w-100 my-auto text-center text-lg-left">
-                  <h4 class="text-white">Total Gross</h4>
-                  <p class="mb-0 text-white-50">รายได้รวมของภาพยนต์ในแต่ละประเภท</p>
-                  <hr class="d-none d-lg-block mb-0 ml-0">
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <!-- Project Two Row -->
-        <div class="row justify-content-center no-gutters">
-          <div class="col-lg-6">
+        <!-- Content One -->
+        <div id="genre">
+          <h1 id="graphheader">ประเภทของภาพยนตร์</h1>
+          <p id="graphsubheader">ประเภทของภาพยนตร์ต่างๆตั้งเเต่ปี ค.ศ 1986 - ค.ศ 2016</p>
+          <div id="graph">
             <embed src="chart/genre_chart.svg" type="image/svg+xml" />
           </div>
-          <div class="col-lg-6 order-lg-first">
-            <div class="bg-black text-center h-100 project">
-              <div class="d-flex h-100">
-                <div class="project-text w-100 my-auto text-center text-lg-right">
-                  <h4 class="text-white">Total Movies In Each Genre</h4>
-                  <p class="mb-0 text-white-50">จำนวนหนังแต่ละประเภทตั้งแต่ปี 1986-2016 จะเห็นได้ว่าจากกราฟ
-                  หนังที่ถูกผลิตออกมามากที่สุดคือ หนังแนวคอมเมดี้ เนื่องจากว่าหนังแนวนี้ใช้ต้นทุนในการผลิตต่ำ</p>
-                  <hr class="d-none d-lg-block mb-0 mr-0">
-                </div>
-              </div>
-            </div>
-          </div>
-          </div><br /><br /><br />
-          
-          <div class="row align-items-center no-gutters mb-4 mb-lg-5">
-          <div class="col-xl-8 col-lg-7">
-              <embed src="chart/rating_chart.svg" type="image/svg+xml" />
-          </div>
-          <div class="col-xl-4 col-lg-5">
-            <div class="featured-text text-center text-lg-left">
-              <h4>Total Rating</h4>
-              <p class="text-black-50 mb-0">จากการวิเคราะห์ออกมาในรูปแบบกราฟจะเห็นได้ว่า เรต R(Restricted) เป็นหนังที่ถูกผลิตออกมามากกว่าเรตอื่นๆมากอาจเป็นเพราะได้รับความนิยมจากในหมู่ของวัยรุ่นและวัยทำงาน ซึ่งเรต R เป็นเรตสำหรับเด็กและเยาวชนอายุต่ำกว่า 17 ปีแต่จะสามารถเข้าชมได้ต่อเมื่อมีผู้ปกครองคอยดูแลอยู่ด้วยเนื่องจากว่าเนื้อหาอาจจะประกอบไปด้วยความรุนแรงและภาพที่ไม่เหมาะสม รองลงมาคือ เรต PG-13(Parental Guidance-13) เป็นเรตที่อนุญาตให้ทุกคนเข้าร่วมชมได้แต่สำหรับเด็กที่อายุต่ำกว่า 13 ปี ต้องมีผู้ใหญ่ร่วมชมและให้คำแนะนำเพราะเนื้อหาบางส่วนอาจจะไม่เหมาะสำหรับเด็ก และสุดท้าย เรต PG(Parental Guidance) เป็นเรตที่ได้รับความนิยมอยู่พอสมควร ซึ่งเป็นเรตที่สามารถให้ทุกคนเข้าชมได้แต่แนะนำให้เด็กและเยาวชนมีผู้ใหญ่ร่วมชมและคอยให้คำแนะนำด้วย</p>
-            </div>
+          <div id="contentdetail">
+            <p style="text-indent: 2.5em;">
+              พวกเรากลุ่ม StoryTeller ได้คาดเดาไว้ว่าประเภทของภาพยนตร์ที่มีมากที่สุดตลอดช่วงเวลาปี ค.ศ 1986 - ค.ศ 2016 จะเป็นภาพยนตร์ประเภท <strong >Action</strong> 
+              เพราะเนื่องจากพวกเราได้มีการโหวตในกลุ่มว่าถ้าให้เลือกไปดูภาพยนตร์จะเลือกดูประเภทไหนกัน เเละทุกคนล้วนตอบเป็นเสียงเดียวกันว่า "ต้องเป็น Action สิ มันส์ สะใจ!" 
+            </p>
+            <p style="text-indent: 2.5em;">
+              เเต่จากกราฟจะสังเกตได้ว่า ภาพยนตร์ที่ถูกผลิตมากที่สุดในช่วง 30 ปีที่ผ่านมาคือ <strong>Comedy</strong> คิดเป็น 30.50% จากภาพยนตร์ทั้งหมด รองลงมาเป็น <strong>Drama</strong> ที่ 21.17% เเละ <strong >Action</strong> ที่ 19.52% ตามลำดับ
+            </p>
+            <p style="text-indent: 2.5em;">
+              เพราะอะไรถึงทำให้ภาพยนตร์ประเภท Comedy เป็นภาพยนตร์ที่ถูกผลิตมากที่สุดในช่วงเวลา 30 ปี นั่นเป็นเพราะ Comedy เป็นภาพยนตร์ที่เข้าถึงกลุ่มคนดูได้ง่ายกว่าภาพยนตร์ประเภทอื่นๆ เนื่องจากสิ่งที่ภาพยนตร์ประเภทนี้นำเสนอนั้นคือ <strong>เสียงหัวเราะ
+              ความสนุกสนาน ความบันทิง</strong> ทำให้สามารถเข้าถึงกลุ่มคนดูได้ทุกช่วงอายุ เหมาะที่จะเป็นภาพยนตร์ที่ดูกันในครอบครัว ถ้ามองในมุมมองของผู้ผลิต เรื่องของทุนการสร้างภาพยนตร์ประเภท Comedy เทียบกับประเภทอื่นๆเเล้ว Comedy ย่อมใช้ทุนในการสร้างน้อยกว่าอยู่เเล้ว เพราะภาพยนตร์ Comedy
+              ไม่จำเป็นต้องพึ่ง <strong>Computer Graphics (CG)</strong> เหมือนภาพยนตร์ประเภท Action หรือ Sci-fi เพื่อที่จะทำให้ภาพยนตร์ดูสมจริง 
+            </p>
+            <p style="text-indent: 2.5em;">
+              อีกประเภทภาพยนตร์ที่มีการผลิตมากเป็นลำดับที่ 2 คือ Drama เป็นประเภทของหนึ่งของภาพยนตร์ที่นำเสนอ <strong>เรื่องราวที่จริงจัง เน้นไปที่การสื่ออารมณ์ เหตุการณ์ต่างๆ ผ่านการเติบโตของตัวละคร</strong> ทำให้คนดูได้เห็นถึง การตัดสินใจ อุปสรรค
+              หลังจากดูภาพยนตร์ประเภทนี้จบ อาจจะทำให้คนดูได้รับเเรงบันดาลใจ พูดเเค่นี้ก็เห็นภาพเเล้วว่าเป็นภาพยนตร์ที่ซีเรียสขนาดหนึ่งเลย ทำให้กลุ่มคนดูเเคบลงกว่า Comedy ทำให้ผู้ผลิตผลิตภาพยนตร์ประเภทนี้น้อยกว่า เเต่ยังเป็นที่ได้รับความสนใจอยู่
+              เช่น Saving Private Ryan <em>(1998)</em>, Whiplash <em>(2014)</em>
+            </p>
+            <p style="text-indent: 2.5em;">
+              ต่อมาคือประเภทภาพยนตร์ที่พวกเรากลุ่ม StoryTeller ชอบมากที่สุดนั่นก็คือ ภาพยนตร์ประเภท Action ซึ่งมีเปอร์เซ็นต์การผลิตเเทบจะใกล้เคียงกับ ภาพยนตร์ประเภท Drama เลยก็ว่าได้ ภาพยนตร์ประเภทนี้นั้นนำเสนอ เรื่องราวของตัวละครที่จะประกอบไปด้วย <strong>ความรุนแรง การต่อสู้ การไล่ล่า</strong>
+              ไม่ได้ใส่ใจกับการเล่าเรื่องราวมากมัก พูดง่ายๆว่าเอาสะใจกันอย่างเดียวเลย อย่างที่กล่าวไปในข้างต้น การที่จะผลิตภาพยนตร์ Action ซักเรื่องหนึ่งต้องใช้ทุนการสร้างเยอะกว่า ทำให้ผู้ผลิตผลิตภาพยนตร์ประเภทนี้น้อยกว่า เมื่อเทียบกับภาพยนตร์ประเภท Comedy 
+            </p>
           </div>
         </div>
-        </div><br /><br /><br />
-
-        <div class="row align-items-center no-gutters mb-4 mb-lg-5">
-          <div class="col-xl-8 col-lg-7">
-              <embed src="chart/country_chart.svg" type="image/svg+xml" />
-          </div>
-          <div class="col-xl-4 col-lg-5">
-            <div class="featured-text text-center text-lg-left">
-              <h4>Where Most Movie From ?</h4>
-              <p class="text-black-50 mb-0">หนังที่ผลิตออกมาส่วนใหญ่นั้นจะมาจากประเทศ สหรัฐอเมริกา(USA) หนังหรือภาพยนตร์ในอเมริกา
-              มีผลต่ออุตสาหกรรมหนังต่างประเทศจนทำให้ภาพยนตร์ในฝั่งอเมริกาเป็นที่รู้จักอย่างแพร่หลาย
-            อีกทั้งใน อเมริกายังมี Hollywood ที่เป็นอุตสาหกรรมหนังที่เก่าแก่ที่สุดและเป็นแหล่งกำเนิดของหนังอีกหลากหลายประเภทเช่นกัน
-          </p>
-            </div>
-          </div><br />
-        </div>
-        </div>
-
       </div>
+
     </section>
 
     <!-- Signup Section -->
