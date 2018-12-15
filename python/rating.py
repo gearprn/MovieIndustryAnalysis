@@ -22,7 +22,7 @@ def main():
     bar_chart.title = "Total rating from 1986 to 2016"
 
     for i in rating_dict:
-        bar_chart.add(i, int((int(rating_dict[i])/6820*100)*100)/100)
+        bar_chart.add(i, [{"value": rating_dict[i], "label": "%.2f"%(rating_dict[i]/6820*100) + "%"}])
 
     bar_chart.legend_at_bottom = True
     bar_chart.legend_box_size = 16
