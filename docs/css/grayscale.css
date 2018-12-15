@@ -21,6 +21,7 @@
 }
 
 #mainNav .navbar-brand {
+  
   color: #161616;
   font-weight: 700;
   padding: .9rem 0;
@@ -51,6 +52,7 @@
     color: rgba(255, 255, 255, 0.5);
   }
   #mainNav .nav-link {
+    font-family: 'Kanit', sans-serif;
     -webkit-transition: none;
     transition: none;
     padding: 2rem 1.5rem;
@@ -176,35 +178,28 @@
   margin-bottom: 5rem;
 }
 
-.projects-section {
-  padding: 10rem 0;
+.contentmain {
+  align-content: center;
 }
 
-.projects-section .featured-text {
-  padding: 2rem;
+#graphheader {
+  text-align: center;
+  padding-top: 50px;
+  font-family: 'Kanit', sans-serif;
 }
 
-@media (min-width: 992px) {
-  .projects-section .featured-text {
-    padding: 0 0 0 2rem;
-    border-left: 0.5rem solid #64a19d;
-  }
+#graphsubheader {
+  text-align: center;
+  font-family: 'Kanit', sans-serif;
 }
 
-.projects-section .project-text {
-  padding: 3rem;
-  font-size: 90%;
+#graph {
+  padding: 50px;
 }
 
-@media (min-width: 992px) {
-  .projects-section .project-text {
-    padding: 5rem;
-  }
-  .projects-section .project-text hr {
-    border-color: #64a19d;
-    border-width: .25rem;
-    width: 30%;
-  }
+#contentdetail {
+  font-family: 'Kanit', sans-serif;
+  align-content: center; 
 }
 
 .signup-section {
