@@ -135,8 +135,12 @@
     letter-spacing: 0.8rem;
   }
   .masthead h2 {
-    max-width: 30rem;
+    font-family: 'Kanit', sans-serif;
+    max-width: 100%;
     font-size: 1.25rem;
+  }
+  .masthead a {
+    font-family: 'Kanit', sans-serif;
   }
 }
 
