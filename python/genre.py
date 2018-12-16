@@ -23,7 +23,7 @@ def main():
         bar_chart.add(i, [{'value': genre_amount[i], 'label': "%.2f"%(genre_amount[i]/6820*100) + "%"}])
 
     bar_chart.legend_at_bottom = True
-    bar_chart.legend_box_size = 20
+    bar_chart.legend_box_size = 16
     bar_chart.render_to_file('genre_chart.svg')
 
 main()
