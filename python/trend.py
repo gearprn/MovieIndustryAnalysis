@@ -13,16 +13,18 @@ def main():
                  "Crime", "Drama", "Family", "Fantasy", "Horror", "Musical",
                  "Mystery", "Romance", "Sci-Fi", "Thriller", "War", "Western"]
 
-    line_chart = pygal.Line(interpolate='cubic', dots_size=1.75)
-    line_chart.title = "Movie Trend from 1986 to 2016"
-    line_chart.x_labels = range(1986, 2017)
-    line_chart.x_labels_major_count = 5
-    line_chart.show_minor_x_labels = False
-    line_chart.y_labels = [i for i in range(0, 101, 20)]
-    line_chart.y_labels_major_every = 5
-    line_chart.truncate_label = 5
-    line_chart.legend_at_bottom = True
-    line_chart.legend_box_size = 16
+    chart = pygal.Line(interpolate='cubic', dots_size=1.75)
+    chart.title = "Movie trend from 1986 to 2016"
+    chart.x_labels = range(1986, 2017)
+    chart.x_title = 'years'
+    chart.y_title = 'amount'
+    chart.x_labels_major_count = 5
+    chart.show_minor_x_labels = False
+    chart.y_labels = [i for i in range(0, 101, 20)]
+    chart.y_labels_major_every = 5
+    chart.truncate_label = 5
+    chart.legend_at_bottom = True
+    chart.legend_box_size = 16
 
     for genre in genres:
         count = []
@@ -32,9 +34,8 @@ def main():
                if int(data_frame["year"][i]) == year and data_frame["genre"][i] == genre:
                 count_num += 1
             count.append(count_num)
-        print(genre, count)
-        line_chart.add(genre, count)
+        chart.add(genre, count)
 
-    line_chart.render_to_file("trend_genre_line.svg")
+    chart.render_to_file("trend_genre_line.svg")
 
 main()

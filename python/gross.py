@@ -14,17 +14,20 @@ def main():
     for genre, gross_data_frame in grouped:
         gross_dict[genre] = str(gross_data_frame.sum()[5])
 
-    gross_dict = dict(sorted(gross_dict.items(), key=lambda x: int(x[1])))
-
-    bar_chart = pygal.Bar()
-    bar_chart.title = "Total gross in each gross from 1986-2016 (in million)"
+    chart = pygal.Bar()
+    chart.title = "Total gross in each genre from 1986-2016 (in million)"
+    chart.x_title = 'genre'
+    chart.y_title = 'sales (in millions)'
+    chart.y_labels = range(0, 75001)
+    chart.y_labels_major_count = 6
+    chart.show_minor_y_labels = False
 
     for i in gross_dict:
-        bar_chart.add(i, [{"value": int(gross_dict[i][:len(gross_dict[i])-6]), "label": "in million" }])
+        chart.add(i, [{"value": int(gross_dict[i][:len(gross_dict[i])-6]), "label": "in million" }])
 
-    bar_chart.legend_at_bottom = True
-    bar_chart.legend_box_size = 20
+    chart.legend_at_bottom = True
+    chart.legend_box_size = 20
 
-    bar_chart.render_to_file('gross_chart.svg')
+    chart.render_to_file('gross_chart.svg')
 
 main()

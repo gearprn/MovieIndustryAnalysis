@@ -22,7 +22,7 @@ def main():
         pie_chart.add(i, [{"value": country_dict[i], "label": "%.2f"%(country_dict[i]/6820*100) + "%"}])
 
     pie_chart.legend_at_bottom = True
-    pie_chart.legend_box_size = 20
+    pie_chart.legend_box_size = 16
     pie_chart.render_to_file('country_chart.svg')
 
 main()

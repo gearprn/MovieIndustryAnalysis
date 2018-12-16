@@ -22,6 +22,7 @@ def main():
 
     bar_chart = pygal.Pie()
     bar_chart.title = "Total rating from 1986 to 2016"
+    
 
     for i in rating_dict:
         bar_chart.add(i, [{"value": rating_dict[i], "label": "%.2f"%(rating_dict[i]/6820*100)+"%"}])
