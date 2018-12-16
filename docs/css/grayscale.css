@@ -198,11 +198,13 @@
 }
 
 #graph {
-  padding: 50px;
+  margin-top: 50px;
 }
 
 #contentdetail {
+  margin-top: 50px;
   font-family: 'Kanit', sans-serif;
+  text-align: justify;
   align-content: center; 
 }
 
