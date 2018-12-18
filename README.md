@@ -21,6 +21,7 @@
 |![](docs/img/profile_1.jpg)|![](docs/img/profile_2.jpg)|![](docs/img/profile_3.jpg)|![](docs/img/profile_4.jpg)|  
 |:---------:|:---------:|:---------:|:---------:|  
 |[gearprn](https://github.com/gearprn)|[ploidplanp](https://github.com/ploidplanp)|[yykpkp](https://github.com/yykpkp)|[Nnut44](https://github.com/Nnut44)|  
+|นายภูริณัฐ อ่วมรอด|นางสาวณิชยาพรรณ กรรภิรมย์พชิรา|นางสาวภัคภร รัตนเศรษฐ์ยุทธ|นางสาวศุภากร อัถมี|
 
 ### ขอบคุณฐานข้อมูลเเละขอบคุณเทมเพลตจาก
 
