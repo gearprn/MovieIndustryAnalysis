@@ -16,6 +16,10 @@
 * เทรนของภาพยนตร์ระหว่างช่วง 1986 - 2016
 * ประเทศผู้ผลิตของภาพยนตร์ตั้งเเต่ปี ค.ศ 1986 - ค.ศ 2016
 
+# เครื่องมือที่ใช้  
+
+ภาษาโปรเเกรมมิง : Python (Pandas, Pygal)
+
 # สมาชิก  
 
 |![](docs/img/profile_1.jpg)|![](docs/img/profile_2.jpg)|![](docs/img/profile_3.jpg)|![](docs/img/profile_4.jpg)|  
