@@ -14,6 +14,7 @@
 * เทรนของภาพยนตร์ระหว่างช่วง 1986 - 2016
 * ประเทศผู้ผลิตของภาพยนตร์ตั้งเเต่ปี ค.ศ 1986 - ค.ศ 2016
 
-### ขอบคุณข้อมูลจาก
+### ขอบคุณฐานข้อมูลเเละขอบคุณเทมเพลตจาก
 
- [Kaggle](https://www.kaggle.com/danielgrijalvas/movies)
+[ฐานข้อมูล Kaggle](https://www.kaggle.com/danielgrijalvas/movies)
+[เทมเพลต bootstrap](https://blackrockdigital.github.io/startbootstrap-grayscale/)
