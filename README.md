@@ -18,7 +18,7 @@
 
 # สมาชิก  
 
-|![](docs/img/profile_1.jpg)|รูป1|รูป1|รูป1|  
+|![](docs/img/profile_1.jpg)|![](docs/img/profile_2.jpg)|![](docs/img/profile_3.jpg)|![](docs/img/profile_4.jpg)|  
 |:---------:|:---------:|:---------:|:---------:|  
 |เกียร์|พลอย|หยก|นัท|  
 
