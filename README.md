@@ -20,7 +20,7 @@
 
 |![](docs/img/profile_1.jpg)|![](docs/img/profile_2.jpg)|![](docs/img/profile_3.jpg)|![](docs/img/profile_4.jpg)|  
 |:---------:|:---------:|:---------:|:---------:|  
-|เกียร์|พลอย|หยก|นัท|  
+|[gearprn](https://github.com/gearprn)|[ploidplanp](https://github.com/ploidplanp)|[yykpkp](https://github.com/yykpkp)|[Nnut44](https://github.com/Nnut44)|  
 
 ### ขอบคุณฐานข้อมูลเเละขอบคุณเทมเพลตจาก
 
